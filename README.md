@@ -7,3 +7,5 @@ Static corporate website for FOODEXPORTSPRO LTD.
 - Add the final domain to canonical, Open Graph URL and sitemap.
 - Confirm production photography/licensing.
 - Connect the production domain in Netlify.
+
+<!-- redeploy trigger: 2026-09-11 -->
