@@ -7,6 +7,7 @@ const form=document.getElementById('inquiry-form');
 const statusEl=document.getElementById('form-status');
 form.addEventListener('submit',async e=>{
   e.preventDefault();
+  if(!form.reportValidity()) return;
   const button=form.querySelector('button[type="submit"]');
   const data=new FormData(form);
   if(data.get('bot-field')) return;
